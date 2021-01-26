@@ -6,6 +6,15 @@
 
 /*Common clasess*/
 
+body{
+    width: 100%;
+}
+
+.text-light{
+    color: #059DDE;
+
+}
+
 .welcome{
     font-family: 'Lobster', cursive;
     font-size: 41px;
@@ -193,10 +202,9 @@ section.header-bg-parent {
 
 .header-col1 {
     float: left;
-    width: 35%;
     position: absolute;
     top: 30%;
-    left: 11%;
+    left: 5.9%;
 }
 
 .header-col2 {
@@ -460,7 +468,7 @@ section#why-choose-us {
 
 .progress-info-col {
     float: right;
-    width: 70%;
+    width: 67%;
 }
 
 .expand-img-col {
