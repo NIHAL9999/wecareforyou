@@ -1,0 +1,86 @@
+/*Common clasess*/
+
+.clear {
+    clear: both;
+}
+
+.common-h5 {
+    color: #3b3663;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+}
+
+.common-h2 {
+    color: #3b3663;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.active {
+    color: #f47514 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito';
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.fixed-header {
+    position: fixed !important;
+    background-color: #fff;
+    top: 0px;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 10px 10px 20px #fff;
+}
+
+#arrow i {
+    position: fixed;
+    bottom: 25px;
+    color: #ffffff;
+    background-color: #f47a14;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
