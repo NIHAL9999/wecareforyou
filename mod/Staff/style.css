@@ -1,0 +1,30 @@
+body
+{
+    background-image: url('img/staff1.jpg');
+	background-size:cover;
+}
+caption{
+    font-size: 47px;
+    font-family: 'Sriracha', ;
+    color: black;
+}
+
+table{
+    position: relative;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+
+}
+th{
+    font-family: 'Lemonada', cursive;
+    color: crimson;
+    background-color: skyblue;
+}
+td{
+    background-color: lightpink;
+    font-size: large;
+    color: maroon;
+
+}
