@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>Registration Form</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-with, inital-scale=1.0" />
+<link type="text/css" rel="stylesheet" href="style1.css"/>
+
+</head>
+
+<body>
+<img src="img/st.jpg" width="300px" height="350px">
+<form method="" action="">
+<table border="1" align="center" width="500" height="550" bgcolor="lightgrey" >
+<caption>New Patient Registration</caption><br>
+<tr>
+   <th>First Name</th>
+   <td><input type="text" required/></td>
+</tr>
+<tr>
+   <th>Last Name</th>
+   <td><input type="text" required/></td>
+</tr>
+<tr>
+   <th>Password</th>
+   <td><input type="text" required/></td>
+</tr>
+<tr>
+   <th>ReEnter Your Password</th>
+   <td><input type="password" required/></td>
+</tr>
+<tr>
+  <th>Email id</th>
+  <td><input type="email" required/></td>
+</tr>
+<tr>
+  <th>MobileNo.</th>
+  <td><input type="tel" id="phone" name="phone" required/></td>
+</tr>
+<tr>
+  <th>Gender</th>
+  <td>
+  Male<input type="radio" name="g" value="m" required/>
+  Female<input type="radio" name="g" value="f" required/>
+  </td>
+</tr>
+<tr>
+  <th>Permanent Address</th>
+  <td><textarea cols="23" rows="3" value="address"></textarea></td>
+</tr>
+<tr>
+  <th>Date Of Birth</th>
+  <td><input type="date" required/></td>
+</tr>
+<tr>
+  <th>Country</th>
+  <td>
+  <select name="country" required>
+  <option value="" selected="selected" disabled="disabled">Country</option>
+  <option value="1">India</option>
+  <option value="2">Pakistan</option>
+  <option value="3">England</option>
+  <option value="4">Bangladesh</option>
+  </select>
+  </td>
+</tr>
+<tr>
+  <td colspan="2" align="center"> <input type="submit" value="Submit"/>
+  <input type="reset" value="Reset"/>
+  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
